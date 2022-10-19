@@ -5,6 +5,10 @@
     <meta charset="UTF-8" />
     <title>Grid Template</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
   </head>
   <body>
     <main>
@@ -27,19 +31,97 @@
         </div>
       </header>
       <section>
-        <form>
-          <h3>Handcrafted, home-made masterpieces</h3>
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
           <input
             type="email"
             name="email"
             id="email"
-            placeholder="Enter email here..."
+            placeholder="Enter your email address here"
           />
+          <input type="submit" name="submit" id="submit" value="Get Started" />
         </form>
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section id="features">
+        <div>
+          <div class="icon">
+            <i class="fa fa-3x fa-fire"></i>
+          </div>
+          <div class="desc">
+            <h2>Premium Materials</h2>
+            <p>
+              Our Trombones use the shiniest brass which is sourced locall. This
+              will increaser the longevity off your purchase.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="icon">
+            <i class="fa fa-3x fa-truck"></i>
+          </div>
+          <div class="desc">
+            <h2>Fast Shipping</h2>
+            <p>
+              We make sure you recieve your trombomes as soon as we have
+              finished making it. We also provide free returns if you are not
+              satisfied.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="icon">
+            <i class="fa fa-3x fa-battery-half"></i>
+          </div>
+          <div class="desc">
+            <h2>Quality Assurance</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults anb we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how_it_works">
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"
+          frameborder="0"
+          allowfullscreen
+          >#document</iframe
+        >
+      </section>
+      <section id="pricing">
+        <div class="type tenor">
+          <h3>Tenor Trombone</h3>
+          <h2>$600</h2>
+          <p>Its ugly</p>
+          <p>Really heavy</p>
+          <button class="btn">Select</button>
+        </div>
+        <div class="type bass">
+          <h3>Bass Trombone</h3>
+          <h2>$900</h2>
+          <p>It pretty</p>
+          <p>Shiny</p>
+          <button class="btn">Select</button>
+        </div>
+        <div class="type valve">
+          <h3>Valve Trombone</h3>
+          <h2>$1200</h2>
+          <p>Is pricy</p>
+          <p>Has all the bell and whistles</p>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Contact</li>
+        </ul>
+        <span>Copyright 2016, Original Trombone</span>
+      </footer>
     </main>
   </body>
 </html>
