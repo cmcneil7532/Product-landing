@@ -32,7 +32,9 @@
           </nav>
         </div>
       </header>
-      <section>
+ <div class="container">
+      <div></div>
+      <section id="hero">
         <h2>Handcrafted, home-made masterpieces</h2>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
           <input
@@ -40,12 +42,13 @@
             name="email"
             id="email"
             placeholder="Enter your email address here"
+            required
           />
-          <input type="submit" name="submit" id="submit" value="Get Started" />
+          <input type="submit" id="submit" value="Get Started" class="btn" />
         </form>
       </section>
       <section id="features">
-        <div>
+        <div class="grid">
           <div class="icon">
             <i class="fa fa-3x fa-fire"></i>
           </div>
@@ -57,7 +60,7 @@
             </p>
           </div>
         </div>
-        <div>
+        <div class="grid">
           <div class="icon">
             <i class="fa fa-3x fa-truck"></i>
           </div>
@@ -70,7 +73,7 @@
             </p>
           </div>
         </div>
-        <div>
+        <div class="grid">
           <div class="icon">
             <i class="fa fa-3x fa-battery-half"></i>
           </div>
@@ -82,6 +85,7 @@
             </p>
           </div>
         </div>
+    </div>
       </section>
       <section id="how-it-works">
         <iframe

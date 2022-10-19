@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #eee;
 }
 html {
   display: block;
@@ -48,4 +49,78 @@ li {
 a {
   text-decoration: none;
   color: black;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 20px;
+}
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  padding: 25px;
+}
+form > #email {
+  border: 1px solid gray;
+  width: 275px;
+  height: 35px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+form {
+  display: block;
+}
+.btn {
+  max-width: 150px;
+  width: 100%;
+  margin: 10px;
+  height: 40%;
+  border: 1px solid orange;
+  background-color: orange;
+  border-radius: 5px;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+#features {
+  margin-top: 50px;
+}
+
+.grid {
+  display: flex;
+}
+
+#features .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  height: 125px;
+  width: 80vw;
 }
